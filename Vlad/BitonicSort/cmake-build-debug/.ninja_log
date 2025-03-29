@@ -1,0 +1,9 @@
+# ninja log v6
+3611	4941	7649687840911011	BitonicSort.exe	eee039ca33a147f4
+8	504	7649691083221905	build.ninja	c9f957febfeea06c
+582	725	7649583047431593	glad.lib	9185a2d85ab4e8f4
+43	8144	7649646569462023	CMakeFiles/BitonicSort.dir/BitonicKernel.cu.obj	aec7fbb6b6f6708e
+1976	3611	7649687824563483	CMakeFiles/BitonicSort.dir/cmake_device_link.obj	424a972cd1ccec31
+47	1975	7649687805261793	CMakeFiles/BitonicSort.dir/main.cpp.obj	e85fa83aa7fa6203
+46	581	7649583042077144	CMakeFiles/glad.dir/src/glad.c.obj	11005b2f2744e51e
+49	1572	7649623322360714	CMakeFiles/BitonicSort.dir/Implementations/GLSLCompute.cpp.obj	20d9989484d32922

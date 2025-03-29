@@ -1,0 +1,4 @@
+C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/cmake-build-debug/CMakeFiles/glad.dir
+C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/cmake-build-debug/CMakeFiles/BitonicSort.dir
+C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
