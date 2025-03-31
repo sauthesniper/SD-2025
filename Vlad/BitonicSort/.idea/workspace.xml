@@ -9,7 +9,8 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoSearchForTextInStrings/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
-    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -43,7 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="shader-template" />
         <option value="cs-template" />
+        <option value="vs-template" />
+        <option value="fs-template" />
       </list>
     </option>
   </component>
@@ -217,7 +221,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/Tests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -230,6 +234,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dalv\School\University\Classes\Semestrul2\SD\BitonicSort\Tests" />
       <recent name="C:\Dalv\School\University\Classes\Semestrul2\SD\BitonicSort\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -282,6 +287,15 @@
       <workItem from="1743173413387" duration="3552000" />
       <workItem from="1743255009777" duration="9118000" />
       <workItem from="1743265531072" duration="2673000" />
+      <workItem from="1743272935195" duration="606000" />
+      <workItem from="1743319886366" duration="1443000" />
+      <workItem from="1743323920165" duration="5764000" />
+      <workItem from="1743335670940" duration="10438000" />
+      <workItem from="1743355853066" duration="566000" />
+      <workItem from="1743359193422" duration="151000" />
+      <workItem from="1743359363346" duration="1410000" />
+      <workItem from="1743404376453" duration="1866000" />
+      <workItem from="1743416493650" duration="38000" />
     </task>
     <servers />
   </component>
@@ -302,7 +316,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -1,0 +1,32 @@
+#version 440
+layout(local_size_x = 16, local_size_y = 1, local_size_z = 1) in;
+
+layout(r32i, binding = 0) uniform iimage2D sortingTexture;
+uniform int stage;
+uniform int pass;
+uniform int row;
+
+void main() {
+    int i = int(gl_GlobalInvocationID.x);
+
+    int group = i / pass;
+    int dir = i / (stage / 2) % 2;
+
+    int li = i + group * pass;
+    int ri = li + pass;
+
+    // Math for if(dir == 0) swap(li, ri)
+    int aux = ri * dir + li * (1 - dir);
+    ri = li * dir + ri * (1 - dir);
+    li = aux;
+
+    int vl = int(imageLoad(sortingTexture, ivec2(li, row)));
+    int vr = int(imageLoad(sortingTexture, ivec2(ri, row)));
+    aux = min(vl, vr);
+    vr = max(vl, vr);
+    vl = aux;
+
+    // Write to the next step
+    imageStore(sortingTexture, ivec2(li, row + 1), ivec4(vl, 0, 0, 1));
+    imageStore(sortingTexture, ivec2(ri, row + 1), ivec4(vr, 0, 0, 1));
+}

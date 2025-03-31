@@ -1,12 +1,11 @@
-#include "include/glad.h"
-#include <GLFW/glfw3.h>
+#include <algorithm>
+#include <chrono>
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
-#include <algorithm>
-#include <chrono>
 #include "Implementations/CudaCompute.h"
+#include "Implementations/GLSLCompute.h"
 
 using namespace std;
 using namespace std::chrono;
@@ -28,9 +27,16 @@ int* ReadArr(const char* path, int&size) {
 int main() {
 	cout << "Reading test file...\n";
 	int size;
-	int* arr = ReadArr("C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/Tests/test16.in", size);
-	int* arrCopy = ReadArr("C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/Tests/test16.in", size);
+	int* arr = ReadArr("C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/Tests/shuffle2pow10.in", size);
+	int* arrCopy = ReadArr("C:/Dalv/School/University/Classes/Semestrul2/SD/BitonicSort/Tests/shuffle2pow10.in", size);
 	cout << "Read " << size << " numbers\n\n";
+
+	GLSLCompute* glslCompute = new GLSLCompute(1920, 1080);
+	glslCompute->AnimSort(arr, size);
+
+	delete[] arr;
+	delete[] arrCopy;
+	return 0;
 
 	cout << "Running STL sort...";
 	auto start = high_resolution_clock::now();

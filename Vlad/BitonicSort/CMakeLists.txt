@@ -21,6 +21,7 @@ add_executable(BitonicSort main.cpp BitonicKernel.cu
         Implementations/GLSLCompute.cpp
         Implementations/GLSLCompute.h
         Implementations/CudaCompute.h
+        include/stb_image_write.h
 )
 
 # Enable CUDA for the project

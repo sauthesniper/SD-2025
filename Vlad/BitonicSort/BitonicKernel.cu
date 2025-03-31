@@ -20,9 +20,8 @@ __global__ void BitonicSort(int* v, int size, int stage, int pass) {
 	int li = i + group * pass;
 	int ri = li + pass;
 
-	int aux = li;
 	// Math for if(dir == 0) swap(li, ri)
-	aux = ri * dir + li * (1 - dir);
+	int aux = ri * dir + li * (1 - dir);
 	ri = li * dir + ri * (1 - dir);
 	li = aux;
 
