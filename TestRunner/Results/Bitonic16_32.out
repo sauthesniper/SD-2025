@@ -1,0 +1,28 @@
+Running tests:
+./BigTests16_32//1024_int16_X1.in ./BigTests16_32//1024_int32_X1.in ./BigTests16_32//1048576_int16_X1.in ./BigTests16_32//1048576_int32_X1.in ./BigTests16_32//131072_int16_X1.in ./BigTests16_32//131072_int32_X1.in ./BigTests16_32//134217728_int16_X1.in ./BigTests16_32//134217728_int32_X1.in ./BigTests16_32//16384_int16_X1.in ./BigTests16_32//16384_int32_X1.in ./BigTests16_32//16777216_int16_X1.in ./BigTests16_32//16777216_int32_X1.in ./BigTests16_32//262144_int16_X1.in ./BigTests16_32//262144_int32_X1.in ./BigTests16_32//4096_int16_X1.in ./BigTests16_32//4096_int32_X1.in ./BigTests16_32//524288_int16_X1.in ./BigTests16_32//524288_int32_X1.in ./BigTests16_32//536870912_int16_X1.in ./BigTests16_32//536870912_int32_X1.in ./BigTests16_32//65536_int16_X1.in ./BigTests16_32//65536_int32_X1.in ./BigTests16_32//67108864_int16_X1.in ./BigTests16_32//67108864_int32_X1.in
+
+[1mName                      Allocation      GPU Transfer    Sorting         CPU Transfer    Total          [0m
+1024_int16_X1.in          54ms            0ms             0ms             0ms             54ms           
+1024_int32_X1.in          49ms            0ms             0ms             0ms             49ms           
+1048576_int16_X1.in       48ms            0ms             1ms             0ms             49ms           
+1048576_int32_X1.in       49ms            0ms             1ms             0ms             50ms           
+131072_int16_X1.in        45ms            0ms             0ms             0ms             45ms           
+131072_int32_X1.in        44ms            0ms             0ms             0ms             44ms           
+134217728_int16_X1.in     54ms            40ms            689ms           41ms            824ms          
+134217728_int32_X1.in     59ms            40ms            689ms           41ms            829ms          
+16384_int16_X1.in         43ms            0ms             0ms             0ms             43ms           
+16384_int32_X1.in         41ms            0ms             0ms             0ms             41ms           
+16777216_int16_X1.in      44ms            5ms             67ms            5ms             121ms          
+16777216_int32_X1.in      45ms            5ms             68ms            5ms             123ms          
+262144_int16_X1.in        47ms            0ms             0ms             0ms             47ms           
+262144_int32_X1.in        45ms            0ms             0ms             0ms             45ms           
+4096_int16_X1.in          48ms            0ms             0ms             0ms             48ms           
+4096_int32_X1.in          46ms            0ms             0ms             0ms             46ms           
+524288_int16_X1.in        42ms            0ms             1ms             0ms             43ms           
+524288_int32_X1.in        42ms            0ms             1ms             0ms             43ms           
+536870912_int16_X1.in     50ms            162ms           3174ms          165ms           3551ms         
+536870912_int32_X1.in     56ms            162ms           3173ms          165ms           3556ms         
+65536_int16_X1.in         45ms            0ms             0ms             0ms             45ms           
+65536_int32_X1.in         59ms            0ms             0ms             0ms             59ms           
+67108864_int16_X1.in      52ms            20ms            320ms           20ms            412ms          
+67108864_int32_X1.in      49ms            20ms            320ms           20ms            409ms          

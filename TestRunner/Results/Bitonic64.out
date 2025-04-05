@@ -1,0 +1,16 @@
+Running tests:
+./BigTests64//1024_int64_X1.in ./BigTests64//1048576_int64_X1.in ./BigTests64//131072_int64_X1.in ./BigTests64//134217728_int64_X1.in ./BigTests64//16384_int64_X1.in ./BigTests64//16777216_int64_X1.in ./BigTests64//262144_int64_X1.in ./BigTests64//4096_int64_X1.in ./BigTests64//524288_int64_X1.in ./BigTests64//536870912_int64_X1.in ./BigTests64//65536_int64_X1.in ./BigTests64//67108864_int64_X1.in
+
+[1mName                      Allocation      GPU Transfer    Sorting         CPU Transfer    Total          [0m
+1024_int64_X1.in          52ms            0ms             98ms            0ms             150ms          
+1048576_int64_X1.in       45ms            0ms             2ms             0ms             47ms           
+131072_int64_X1.in        44ms            0ms             0ms             0ms             44ms           
+134217728_int64_X1.in     58ms            81ms            1333ms          82ms            1554ms         
+16384_int64_X1.in         45ms            0ms             0ms             0ms             45ms           
+16777216_int64_X1.in      46ms            10ms            132ms           10ms            198ms          
+262144_int64_X1.in        44ms            0ms             1ms             0ms             45ms           
+4096_int64_X1.in          45ms            0ms             0ms             0ms             45ms           
+524288_int64_X1.in        47ms            0ms             1ms             0ms             48ms           
+536870912_int64_X1.in     50ms            325ms           6143ms          330ms           6848ms         
+65536_int64_X1.in         44ms            0ms             0ms             0ms             44ms           
+67108864_int64_X1.in      50ms            40ms            619ms           41ms            750ms          

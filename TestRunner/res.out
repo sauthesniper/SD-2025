@@ -1,0 +1,17 @@
+Running tests:
+./Tests//test1.in ./Tests//test2.in
+
+Running test file ./Tests//test1.in...
+GPU memory allocation took 55 milliseconds
+Memory transfer to GPU took 0 milliseconds
+Sorting on GPU took 0 milliseconds
+Memory transfer to CPU took 0 milliseconds
+1 2 3 4 5 6 7 8 
+
+Running test file ./Tests//test2.in...
+GPU memory allocation took 0 milliseconds
+Memory transfer to GPU took 0 milliseconds
+Sorting on GPU took 0 milliseconds
+Memory transfer to CPU took 0 milliseconds
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 
+
