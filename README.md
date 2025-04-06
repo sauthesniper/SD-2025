@@ -13,13 +13,13 @@
 - Shell Sort  
 
 ### La alegere:
-- GPU Bitonic Merge Sort  
+- Bitonic Sort  
 - Heap Sort  
 - Natural Merge Sort  
 
 ## Complexitate
 
-Toate sortările implementate au o complexitate de **O(n log n)**.
+Toate sortările implementate au o complexitate de **O(n log n)**, în afară de bitonic sort, care are o complexitate de **O(log^2 n)**.
 
 ## Testare și performanță
 
