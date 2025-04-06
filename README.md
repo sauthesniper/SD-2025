@@ -32,7 +32,7 @@ Testele folosite pentru a măsura viteza algoritmilor sunt generate aleatoriu, �
 | Merge Sort           | O(n log n)    | O(n log n)  | O(n log n)       | O(n)                   | Stabil      |
 | Radix Sort           | O(nk)         | O(nk)       | O(nk)            | O(n + k)               | Stabil      |
 | Shell Sort           | O(n log n)    | O(n log² n) | O(n²)            | O(1)                   | Instabil    |
-| Bitonic Sort         | O(log² n)     | O(log² n)   | O(log² n)        | O(1)                   | Instabil    |
+| Bitonic Sort         | O(log² n)     | O(log² n)   | O(log² n)        | O(n)                   | Instabil    |
 | Heap Sort            | O(n log n)    | O(n log n)  | O(n log n)       | O(1)                   | Instabil    |
 | Natural Merge Sort   | O(n)          | O(n log n)  | O(n log n)       | O(n)                   | Stabil      |
 
