@@ -13,7 +13,7 @@
 - Shell Sort  
 
 ### La alegere:
-- Bitonic Sort  
+- GPU Bitonic Merge Sort  
 - Heap Sort  
 - Natural Merge Sort  
 
