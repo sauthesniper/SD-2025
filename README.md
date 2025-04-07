@@ -36,3 +36,5 @@ Testele folosite pentru a mÄƒsura viteza algoritmilor sunt generate aleatoriu, Ã
 | Heap Sort            | O(n log n)    | O(n log n)  | O(n log n)       | O(1)                   | Instabil    |
 | Natural Merge Sort   | O(n)          | O(n log n)  | O(n log n)       | O(n)                   | Stabil      |
 
+Prezentare:
+https://www.canva.com/design/DAGjMinIK8Y/W4q3N9NhL0gdnjsVwRDRUQ/edit?utm_content=DAGjMinIK8Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
